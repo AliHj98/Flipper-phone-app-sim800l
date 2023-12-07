@@ -26,44 +26,28 @@ typedef struct {
 // NUM_MENU_ITEMS defined in uart_terminal_app_i.h - if you add an entry here, increment it!
 const UART_TerminalItem items[NUM_MENU_ITEMS] = {
     {"Console",
-     {"9600"},
-     1,
-     {"9600"},
+     {"115200", "75",     "110",    "150",    "300",    "600",    "1200",  "1800",  "2400",
+      "4800",   "7200",   "9600",   "14400",  "19200",  "31250",  "38400", "56000", "57600",
+      "76800",  "128000", "230400", "250000", "256000", "460800", "921600"},
+     25,
+     {"115200", "75",     "110",    "150",    "300",    "600",    "1200",  "1800",  "2400",
+      "4800",   "7200",   "9600",   "14400",  "19200",  "31250",  "38400", "56000", "57600",
+      "76800",  "128000", "230400", "250000", "256000", "460800", "921600"},
      NO_ARGS,
      FOCUS_CONSOLE_END,
      NO_TIP},
-    {"Phone stat", {""}, 1, {"AT+CPAS"}, NO_ARGS, FOCUS_CONSOLE_END, NO_TIP},
+    {"Phone stat", {""}, 1, {"AT+CPAS"}, INPUT_ARGS, FOCUS_CONSOLE_END, NO_TIP},
     {"Signal Quality", {""}, 1, {"AT+CSQ"}, NO_ARGS, FOCUS_CONSOLE_START, NO_TIP},
     {"SIM card Number", {""}, 1, {"AT+CCID"}, NO_ARGS, FOCUS_CONSOLE_START, NO_TIP},
-    {"Carrier stats", {""}, 1, {"AT+COPS?"}, NO_ARGS, FOCUS_CONSOLE_START, NO_TIP},
-    {"Phonebook entries", {""}, 1, {"AT+CPBF"}, NO_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-    {"Check Network Registration", {""}, 1, {"AT+CREG"}, NO_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-
-
-
 
     {"Call number <NUMBER;>", {""}, 1, {"ATD+"}, INPUT_ARGS, FOCUS_CONSOLE_END, SHOW_STOPSCAN_TIP},
-    {"Redial last number", {""}, 1, {"ATDL"}, NO_ARGS, FOCUS_CONSOLE_START, NO_TIP},
-    {"Answer incoming call", {""}, 1, {"ATA"}, NO_ARGS, FOCUS_CONSOLE_START, NO_TIP},
-
-    {"SMS mode ON", {""}, 1, {"AT+CMGF=1"}, NO_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-    {"SMS Target Number", {""}, 1, {"AT+CMGS="}, INPUT_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-    {"SMS Content", {""}, 1, {""}, INPUT_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-    {"SMS SEND ", {""}, 1, {"26"}, INPUT_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-
-
-
-
-
 
     {"Send AT command", {""}, 1, {"AT"}, INPUT_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-    {"Show Module Voltage", {""}, 1, {"AT+CBC"}, NO_ARGS, FOCUS_CONSOLE_END, NO_TIP},
-
     
     {"Fast cmd",
-     {"Disconnect", "Reset Default", "Tone Dialing", "Pulse Dialing", "Data Mode", "Command mode", "Product info", "Display config"},
+     {"help", "uptime", "date", "df -h", "ps", "dmesg", "reboot", "poweroff"},
      8,
-     {"ATH", "ATZ", "ATT", "ATP", "ATO", "+++", "ATI", "AT&V"},
+     {"help", "uptime", "date", "df -h", "ps", "dmesg", "reboot", "poweroff"},
      INPUT_ARGS,
      FOCUS_CONSOLE_END,
      NO_TIP},
