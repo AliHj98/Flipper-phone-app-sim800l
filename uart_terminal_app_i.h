@@ -14,7 +14,7 @@
 
 #include <cfw.h>
 
-#define NUM_MENU_ITEMS (8)
+#define NUM_MENU_ITEMS (18)
 
 #define UART_TERMINAL_TEXT_BOX_STORE_SIZE (4096)
 #define UART_TERMINAL_TEXT_INPUT_STORE_SIZE (512)
@@ -42,8 +42,7 @@ struct UART_TerminalApp {
     bool is_command;
     bool is_custom_tx_string;
     bool focus_console_start;
-    bool show_stopscan_tip;    
-    bool show_stopscan_tip_1;
+    bool show_stopscan_tip;
 
     int BAUDRATE;
     int TERMINAL_MODE; //1=AT mode, 0=other mode

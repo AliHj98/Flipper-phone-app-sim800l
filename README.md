@@ -1,52 +1,28 @@
-## Phone App For sim800l module
-[Flipper Zero](https://flipperzero.one/) app to control SIm800l via UART interface.
-
-Companion app for this module:
-https://github.com/AlexKaut/flipperzero-flipperphone-sim800l-v0.1/tree/main 
-
-Check for detailed pinup and info on how to make a module
-
-you can also make your own module, the sim800 V2 is much easier to set up and use but has no speaker and mic I/O.
+# UART Terminal for Flipper Zero
+[Flipper Zero](https://flipperzero.one/) app to control various devices via UART interface.
 ## Download fap
-|  **FW RougeMaster** |
-
-| (https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmware=roguemaster) |
+| **FW Official** | **FW Unleashed** |
+| - | - |
+| [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge)](https://flipc.org/cool4uma/UART_Terminal) | [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge?firmware=unleashed)](https://flipc.org/cool4uma/UART_Terminal?firmware=unleashed) |
 
 ## Capabilities
-- Read SIM card number
-- Check Simcard status
-- Check signal strength
-- Set baud rate <9600> for sim800l
+- Read log and command output by uart
+- Send commands by uart
+- Send AT commands
+- Set baud rate
 - Fast commands
 
 ## Connecting
-| Flipper Zero pin |Sim800l interface|
+| Flipper Zero pin | UART interface  |
 | ---------------- | --------------- |
-| 1 (5V)           | 5V              |
 | 13 TX            | RX              |
 | 14 RX            | TX              |
 |8, 18 GND         | GND             |
 
-## Phone status
-Sends AT+CPAS Command
-module status: 0 - ready to work, 2 - unknown (command execution is not guaranteed), 
-3 - incoming call, 4 - voice connection
-
-## Signal Quality
-Sends AT+CSQ Command
-signal quality: 0 -115 dBm or less, 1 - 111 dBm, 2-30 -110..-54 dBm, 31 -52 dBm or more,
-99 -unknown or no signal.
-
-## Phone Call
-Sends ATD commant that starts a phone call to a specific phone number
-
-<ATD+XXXXXXXXXXXX;> (Do not forget ";" in the end)
-
-![image](https://github.com/AliHj98/Flipper-phone-app-sim800l/assets/99630322/9dffe2c1-a272-4ab1-8879-be632e0f2351)
-
+Info: If possible, do not power your devices from 3V3 (pin 9) Flipper Zero. It does not support hot plugging.
 
 ## Keyboard
-Phone App uses its own special keyboard for work, which has all the symbols necessary for working in the console.
+UART_terminal uses its own special keyboard for work, which has all the symbols necessary for working in the console.
 
 To accommodate more characters on a small display, some characters are called up by holding.
 
@@ -59,27 +35,22 @@ In the "Send AT command" mode, the keyboard settings are changed for the conveni
 
 
 ## How to install
-Copy the contents of the repository to the applications_user/uart_terminal_phone folder Flipper Zero firmware and build app with the command ./fbt fap_uart_terminal.
+Copy the contents of the repository to the applications_user/uart_terminal folder Flipper Zero firmware and build app with the command ./fbt fap_uart_terminal.
 
 Or use the tool [uFBT](https://github.com/flipperdevices/flipperzero-ufbt) for building applications for Flipper Zero.
 
-Download ready [fap][https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmware=roguemaster]
+Download ready [fap](https://github.com/playmean/fap-list)
 
 ## How it works
 
 
-![1f](https://github.com/AliHj98/Flipper-phone-app-sim800l/blob/main/photos/Screenshot%202023-12-07%20182019.png)
+![1f](https://user-images.githubusercontent.com/122148894/211161450-6d177638-3bfa-42a8-9c73-0cf3af5e5ca7.jpg)
 
 
-##
+![2f](https://user-images.githubusercontent.com/122148894/211161456-4d2be15b-4a05-4450-a62e-edcaab3772fd.jpg)
 
-RoadMap:
-- Sending text messages through flipper
-- reading text messages
-- recieving calls
-- connecting to data and getting https request
-- viewing, adding removing and saving contacts list on sim
 
 
 ## INFO:
-This is a UART TERMINAL fork, Thanks to https://github.com/cool4uma
+
+~60% of the source code is taken from the [Wifi Marauder](https://github.com/0xchocolate/flipperzero-firmware-with-wifi-marauder-companion) project. Many thanks to the developers of the Wifi Marauder project.
