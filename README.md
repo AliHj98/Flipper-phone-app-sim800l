@@ -33,6 +33,12 @@ Sends AT+CSQ Command
 signal quality: 0 -115 dBm or less, 1 - 111 dBm, 2-30 -110..-54 dBm, 31 -52 dBm or more,
 99 -unknown or no signal.
 
+## Phone Call
+Sends ATD commant that starts a phone call to a specific phone number
+
+<ATD+XXXXXXXXXXXX;> (Do not forget ";" in the end)
+
+![image](https://github.com/AliHj98/Flipper-phone-app-sim800l/assets/99630322/9dffe2c1-a272-4ab1-8879-be632e0f2351)
 
 
 ## Keyboard
