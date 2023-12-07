@@ -3,7 +3,7 @@
 ## Download fap
 |  **FW RougeMaster** |
 | - | - |
-| (https://github.com/AliHj98/Flipper-phone-app-sim800l) |
+| ([https://github.com/AliHj98/Flipper-phone-app-sim800l](https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmware=roguemaster)) |
 
 ## Capabilities
 - Read log and command output by uart
