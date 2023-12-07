@@ -74,11 +74,11 @@ Download ready [fap][https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmwar
 ##
 
 RoadMap:
--Sending text messages through flipper
--reading text messages
--recieving calls
--connecting to data and getting https
--viewing, adding removing and saving contacts list on sim
+- Sending text messages through flipper
+- reading text messages
+- recieving calls
+- connecting to data and getting https
+- viewing, adding removing and saving contacts list on sim
 
 
 ## INFO:
