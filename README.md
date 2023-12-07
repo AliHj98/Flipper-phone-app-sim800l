@@ -77,10 +77,9 @@ RoadMap:
 - Sending text messages through flipper
 - reading text messages
 - recieving calls
-- connecting to data and getting https
+- connecting to data and getting https request
 - viewing, adding removing and saving contacts list on sim
 
 
 ## INFO:
-
-~60% of the source code is taken from the [Wifi Marauder](https://github.com/0xchocolate/flipperzero-firmware-with-wifi-marauder-companion) project. Many thanks to the developers of the Wifi Marauder project.
+This is a UART TERMINAL fork, Thanks to https://github.com/cool4uma
