@@ -6,10 +6,10 @@
 | (https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmware=roguemaster) |
 
 ## Capabilities
-- Read log and command output by uart
-- Send commands by uart
-- Send AT commands
-- Set baud rate
+- Read SIM card number
+- Check Simcard status
+- Check signal strength
+- Set baud rate <9600> for sim800l
 - Fast commands
 
 ## Connecting
@@ -19,8 +19,6 @@
 | 13 TX            | RX              |
 | 14 RX            | TX              |
 |8, 18 GND         | GND             |
-
-Info: If possible, do not power your devices from 3V3 (pin 9) Flipper Zero. It does not support hot plugging.
 
 ## Phone status
 Sends AT+CPAS Command
