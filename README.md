@@ -1,4 +1,4 @@
-# UART Terminal for Flipper Zero
+#Phone App For sim800l module
 [Flipper Zero](https://flipperzero.one/) app to control SIm800l via UART interface.
 ## Download fap
 | **FW Official** | **FW Unleashed** |
