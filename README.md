@@ -3,7 +3,7 @@
 ## Download fap
 |  **FW RougeMaster** |
 | - | - |
-| [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge?firmware=unleashed)](https://flipc.org/cool4uma/UART_Terminal?firmware=unleashed)](https://github.com/AliHj98/Flipper-phone-app-sim800l) |
+| (https://github.com/AliHj98/Flipper-phone-app-sim800l) |
 
 ## Capabilities
 - Read log and command output by uart
