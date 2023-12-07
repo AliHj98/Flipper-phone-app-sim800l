@@ -1,8 +1,12 @@
 #Phone App For sim800l module
 [Flipper Zero](https://flipperzero.one/) app to control SIm800l via UART interface.
 
-Check https://github.com/AlexKaut/flipperzero-flipperphone-sim800l-v0.1/tree/main for detailed pinup and info on how to make a module
+Companion app for this module:
+https://github.com/AlexKaut/flipperzero-flipperphone-sim800l-v0.1/tree/main 
 
+Check for detailed pinup and info on how to make a module
+
+you can also make your own module, the sim800 V2 is much easier to set up and use but has no speaker and mic I/O.
 ## Download fap
 |  **FW RougeMaster** |
 
@@ -67,7 +71,14 @@ Download ready [fap][https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmwar
 ![1f](https://github.com/AliHj98/Flipper-phone-app-sim800l/blob/main/photos/Screenshot%202023-12-07%20182019.png)
 
 
+##
 
+RoadMap:
+-Sending text messages through flipper
+-reading text messages
+-recieving calls
+-connecting to data and getting https
+-viewing, adding removing and saving contacts list on sim
 
 
 ## INFO:
