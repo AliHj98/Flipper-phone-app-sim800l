@@ -13,8 +13,9 @@
 - Fast commands
 
 ## Connecting
-| Flipper Zero pin | UART interface  |
+| Flipper Zero pin |Sim800l interface|
 | ---------------- | --------------- |
+| 1 (5V)           | 5V              |
 | 13 TX            | RX              |
 | 14 RX            | TX              |
 |8, 18 GND         | GND             |
