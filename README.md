@@ -3,7 +3,7 @@
 ## Download fap
 | **FW Official** | **FW Unleashed** |
 | - | - |
-| [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge)](https://flipc.org/cool4uma/UART_Terminal) | [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge?firmware=unleashed)](https://flipc.org/cool4uma/UART_Terminal?firmware=unleashed) |
+|[ [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge)](https://flipc.org/cool4uma/UART_Terminal) | [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge?firmware=unleashed)](https://flipc.org/cool4uma/UART_Terminal?firmware=unleashed)](https://github.com/AliHj98/Flipper-phone-app-sim800l) |
 
 ## Capabilities
 - Read log and command output by uart
