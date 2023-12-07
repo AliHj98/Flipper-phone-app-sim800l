@@ -1,9 +1,9 @@
 #Phone App For sim800l module
 [Flipper Zero](https://flipperzero.one/) app to control SIm800l via UART interface.
 ## Download fap
-| **FW Official** | **FW Unleashed** |
+|  **FW RougeMaster** |
 | - | - |
-|[ [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge)](https://flipc.org/cool4uma/UART_Terminal) | [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge?firmware=unleashed)](https://flipc.org/cool4uma/UART_Terminal?firmware=unleashed)](https://github.com/AliHj98/Flipper-phone-app-sim800l) |
+| [![FAP Factory](https://flipc.org/api/v1/cool4uma/UART_Terminal/badge?firmware=unleashed)](https://flipc.org/cool4uma/UART_Terminal?firmware=unleashed)](https://github.com/AliHj98/Flipper-phone-app-sim800l) |
 
 ## Capabilities
 - Read log and command output by uart
