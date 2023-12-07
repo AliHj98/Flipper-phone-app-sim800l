@@ -48,7 +48,7 @@ Copy the contents of the repository to the applications_user/uart_terminal folde
 
 Or use the tool [uFBT](https://github.com/flipperdevices/flipperzero-ufbt) for building applications for Flipper Zero.
 
-Download ready [fap](https://github.com/playmean/fap-list)
+Download ready [fap]((https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmware=roguemaster))
 
 ## How it works
 
