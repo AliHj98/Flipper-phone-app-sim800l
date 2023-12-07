@@ -1,5 +1,8 @@
 #Phone App For sim800l module
 [Flipper Zero](https://flipperzero.one/) app to control SIm800l via UART interface.
+
+Check https://github.com/AlexKaut/flipperzero-flipperphone-sim800l-v0.1/tree/main for detailed pinup and info on how to make a module
+
 ## Download fap
 |  **FW RougeMaster** |
 
@@ -29,6 +32,8 @@ module status: 0 - ready to work, 2 - unknown (command execution is not guarante
 Sends AT+CSQ Command
 signal quality: 0 -115 dBm or less, 1 - 111 dBm, 2-30 -110..-54 dBm, 31 -52 dBm or more,
 99 -unknown or no signal.
+
+
 
 ## Keyboard
 Phone App uses its own special keyboard for work, which has all the symbols necessary for working in the console.
