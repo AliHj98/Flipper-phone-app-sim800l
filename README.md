@@ -61,7 +61,6 @@ Download ready [fap][https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmwar
 ![1f](https://github.com/AliHj98/Flipper-phone-app-sim800l/blob/main/photos/Screenshot%202023-12-07%20182019.png)
 
 
-![2f](https://user-images.githubusercontent.com/122148894/211161456-4d2be15b-4a05-4450-a62e-edcaab3772fd.jpg)
 
 
 
