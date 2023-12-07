@@ -3,8 +3,6 @@
 ## Download fap
 |  **FW RougeMaster** |
 
-| - | - |
-
 | (https://flipc.org/AliHj98/Flipper-phone-app-sim800l?firmware=roguemaster) |
 
 ## Capabilities
@@ -25,7 +23,7 @@
 Info: If possible, do not power your devices from 3V3 (pin 9) Flipper Zero. It does not support hot plugging.
 
 ## Keyboard
-UART_terminal uses its own special keyboard for work, which has all the symbols necessary for working in the console.
+Phone App uses its own special keyboard for work, which has all the symbols necessary for working in the console.
 
 To accommodate more characters on a small display, some characters are called up by holding.
 
