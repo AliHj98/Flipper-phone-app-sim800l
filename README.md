@@ -22,6 +22,16 @@
 
 Info: If possible, do not power your devices from 3V3 (pin 9) Flipper Zero. It does not support hot plugging.
 
+## Phone status
+Sends AT+CPAS Command
+module status: 0 - ready to work, 2 - unknown (command execution is not guaranteed), 
+3 - incoming call, 4 - voice connection
+
+## Signal Quality
+Sends AT+CSQ Command
+signal quality: 0 -115 dBm or less, 1 - 111 dBm, 2-30 -110..-54 dBm, 31 -52 dBm or more,
+99 -unknown or no signal.
+
 ## Keyboard
 Phone App uses its own special keyboard for work, which has all the symbols necessary for working in the console.
 
