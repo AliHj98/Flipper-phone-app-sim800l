@@ -49,7 +49,7 @@ In the "Send AT command" mode, the keyboard settings are changed for the conveni
 
 
 ## How to install
-Copy the contents of the repository to the applications_user/uart_terminal folder Flipper Zero firmware and build app with the command ./fbt fap_uart_terminal.
+Copy the contents of the repository to the applications_user/uart_terminal_phone folder Flipper Zero firmware and build app with the command ./fbt fap_uart_terminal.
 
 Or use the tool [uFBT](https://github.com/flipperdevices/flipperzero-ufbt) for building applications for Flipper Zero.
 
